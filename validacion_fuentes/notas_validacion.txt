@@ -1,0 +1,153 @@
+OBSERVACIONES SOBRE DECISIONES DE CONSOLIDACIÓN
+================================================
+
+Documento: Notas de validación metodológica
+Proyecto: Historia Analítica de los Mundiales de Fútbol Masculino
+Fecha: Junio 2026
+
+----------------------------------------------------------------------
+1. ALEMANIA OCCIDENTAL vs ALEMANIA UNIFICADA
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "West Germany" (Alemania Occidental): 1954-1990
+- "Germany" (Alemania unificada): 1994-2022
+
+Decisiones tomadas:
+- Se mantienen como entidades separadas en el modelo de datos
+- Para análisis histórico consolidado se suman los registros:
+  * Títulos: 3 (Occ.) + 1 (unificada) = 4 títulos totales
+  * Partidos: 62 (Occ.) + 50 (unificada) = 112 partidos totales
+  * Victorias: 39 (Occ.) + 33 (unificada) = 72 victorias totales
+  * Goles a favor: 131 (Occ.) + 101 (unificada) = 232 goles totales
+
+Justificación:
+- La unificación alemana ocurrió en 1990, creando una discontinuidad
+  histórica que el dataset refleja correctamente
+- Mantenerlas separadas permite análisis por período histórico
+- La consolidación se realiza solo para comparaciones de largo plazo
+
+----------------------------------------------------------------------
+2. CHECOSLOVAQUIA vs REPÚBLICA CHECA
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "Czechoslovakia": 1934, 1938, 1954-1990
+- No hay registros de "Czech Republic" posterior a 1993
+
+Decisiones tomadas:
+- Se mantiene "Czechoslovakia" como entidad histórica separada
+- No se intenta vincular con la República Checa moderna
+
+Justificación:
+- Checoslovaquia se disolvió en 1993 (divorcio de terciopelo)
+- La República Checa es un estado sucesor, no la misma entidad
+- Los datos de la República Checa (1994-2022) no están incluidos
+  en este dataset
+
+----------------------------------------------------------------------
+3. UNIÓN SOVIÉTICA vs RUSIA
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "Soviet Union" (URSS): 1958-1990
+- No hay registros de "Russia" como sucesor
+
+Decisiones tomadas:
+- Se mantiene "Soviet Union" como entidad histórica separada
+- No se intenta vincular con Rusia moderna
+
+Justificación:
+- La URSS se disolvió en 1991
+- Rusia es el estado sucesor principal, pero no la misma entidad
+- Los datos de Rusia (1994-2022) no están incluidos en este dataset
+
+----------------------------------------------------------------------
+4. YUGOSLAVIA vs SERBIA
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "Yugoslavia": 1930-1998
+- No hay registros de "Serbia" o "Serbia and Montenegro"
+
+Decisiones tomadas:
+- Se mantiene "Yugoslavia" como entidad histórica separada
+- No se intenta vincular con Serbia moderna
+
+Justificación:
+- Yugoslavia se disolvió en los años 90 (guerras yugoslavas)
+- Serbia es un estado sucesor, pero no la misma entidad
+- Los datos de Serbia (2006-2022) no están incluidos en este dataset
+
+----------------------------------------------------------------------
+5. COREA Y JAPÓN 2002 (SEDE CONJUNTA)
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "Korea, Japan" registrado como un único HostCountry
+
+Decisiones tomadas:
+- Se mantiene como registro único de sede conjunta
+
+Justificación:
+- Fue la primera vez en la historia que dos países co-organizaron
+  un Mundial de forma conjunta
+- El dataset refleja correctamente esta situación excepcional
+- No se intenta separar en dos registros
+
+----------------------------------------------------------------------
+6. ALEMANIA ORIENTAL (CASO ESPECIAL)
+----------------------------------------------------------------------
+
+Situación en el dataset:
+- "East Germany" (RDA): solo participó en 1974
+- 6 partidos, 2 victorias, 2 empates, 2 derrotas
+
+Decisiones tomadas:
+- Se mantiene como entidad separada
+- No se consolida con Alemania Occidental ni Alemania unificada
+
+Justificación:
+- La RDA fue un estado independiente entre 1949-1990
+- Solo participó en un Mundial (1974, como local)
+- Su récord histórico es independiente y debe mantenerse separado
+
+----------------------------------------------------------------------
+RESUMEN DE ENTIDADES HISTÓRICAS MANTENIDAS SEPARADAS
+----------------------------------------------------------------------
+
+Entidad          | Período      | Mundiales | Decisión
+-----------------|--------------|-----------|------------------
+West Germany     | 1954-1990    | 10        | Separada
+Germany          | 1994-2022    | 10        | Separada
+East Germany     | 1974         | 1         | Separada
+Czechoslovakia   | 1934-1990    | 8         | Separada
+Soviet Union     | 1958-1990    | 7         | Separada
+Yugoslavia       | 1930-1998    | 9         | Separada
+
+----------------------------------------------------------------------
+IMPACTO EN LOS ANÁLISIS
+----------------------------------------------------------------------
+
+Las decisiones de consolidación afectan principalmente:
+
+1. Ranking histórico de títulos:
+   - Alemania consolidada: 4 títulos (2° lugar histórico)
+   - Alemania Occidental sola: 3 títulos (3° lugar histórico)
+
+2. Estadísticas acumuladas:
+   - Alemania consolidada: 112 partidos, 72 victorias
+   - Alemania Occidental sola: 62 partidos, 39 victorias
+
+3. Comparaciones históricas:
+   - Las comparaciones entre "Alemania" y otras selecciones
+     deben especificar si se usa la entidad consolidada o
+     la entidad histórica específica
+
+----------------------------------------------------------------------
+NOTA FINAL
+----------------------------------------------------------------------
+
+Todas las decisiones de consolidación están documentadas en el
+informe principal y son coherentes con las prácticas estándar
+de análisis de datos históricos deportivos.

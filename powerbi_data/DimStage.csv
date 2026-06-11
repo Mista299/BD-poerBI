@@ -1,0 +1,9 @@
+StageName,StageOrder,IsKnockout
+group stage,1,No
+semi-finals,5,Sí
+final,7,Sí
+round of 16,3,Sí
+quarter-finals,4,Sí
+third-place match,6,Sí
+final round,99,Sí
+second group stage,2,No

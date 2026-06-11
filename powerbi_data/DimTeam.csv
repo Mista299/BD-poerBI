@@ -1,0 +1,89 @@
+TeamID,TeamName,TeamCode,ConfederationCode,ConfederationName,Continent,Region,FederationName
+T-01,Algeria,DZA,CAF,Confederation of African Football,África,Africa,Algerian Football Federation
+T-02,Angola,AGO,CAF,Confederation of African Football,África,Africa,Angolan Football Federation
+T-03,Argentina,ARG,CONMEBOL,South American Football Confederation,Sudamérica,South America,Argentine Football Association
+T-04,Australia,AUS,AFC,Asian Football Confederation,Asia,Oceania,Football Australia
+T-05,Austria,AUT,UEFA,Union of European Football Associations,Europa,Europe,Austrian Football Association
+T-06,Belgium,BEL,UEFA,Union of European Football Associations,Europa,Europe,Royal Belgian Football Association
+T-07,Bolivia,BOL,CONMEBOL,South American Football Confederation,Sudamérica,South America,Bolivian Football Federation
+T-08,Bosnia and Herzegovina,BIH,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Bosnia and Herzegovina
+T-09,Brazil,BRA,CONMEBOL,South American Football Confederation,Sudamérica,South America,Brazilian Football Confederation
+T-10,Bulgaria,BGR,UEFA,Union of European Football Associations,Europa,Europe,Bulgarian Football Union
+T-11,Cameroon,CMR,CAF,Confederation of African Football,África,Africa,Cameroonian Football Federation
+T-12,Canada,CAN,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,North America,Canadian Soccer Association
+T-13,Chile,CHL,CONMEBOL,South American Football Confederation,Sudamérica,South America,Football Federation of Chile
+T-14,China,CHN,AFC,Asian Football Confederation,Asia,East Asia,Chinese Football Association
+T-15,Chinese Taipei,TWN,AFC,Asian Football Confederation,Asia,East Asia,Chinese Taipei Football Association
+T-16,Colombia,COL,CONMEBOL,South American Football Confederation,Sudamérica,South America,Colombia Football Federation
+T-17,Costa Rica,CRI,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Central America,Costa Rican Football Federation
+T-18,Croatia,HRV,UEFA,Union of European Football Associations,Europa,Europe,Croatian Football Federation
+T-19,Cuba,CUB,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Caribbean,Football Association of Cuba
+T-20,Czech Republic,CZE,UEFA,Union of European Football Associations,Europa,Europe,Football Association of the Czech Republic
+T-21,Czechoslovakia,CSK,UEFA,Union of European Football Associations,Europa,Europe,Football Association of the Czechoslovakia
+T-22,Denmark,DNK,UEFA,Union of European Football Associations,Europa,Europe,Danish Football Association
+T-23,Dutch East Indies,IDN,AFC,Asian Football Confederation,Asia,South East Asia,Football Association of Indonesia
+T-24,East Germany,DDR,UEFA,Union of European Football Associations,Europa,Europe,Football Association of East Germany
+T-25,Ecuador,ECU,CONMEBOL,South American Football Confederation,Sudamérica,South America,Ecuadorian Football Federation
+T-26,Egypt,EGY,CAF,Confederation of African Football,África,Africa,Egyptian Football Association
+T-27,El Salvador,SLV,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Central America,Salvadorian Football Federation
+T-28,England,ENG,UEFA,Union of European Football Associations,Europa,Europe,The Football Association
+T-29,Equatorial Guinea,GNQ,CAF,Confederation of African Football,África,Africa,Equatoguinean Football Federation
+T-30,France,FRA,UEFA,Union of European Football Associations,Europa,Europe,French Football Association
+T-31,Germany,DEU,UEFA,Union of European Football Associations,Europa,Europe,Germany Football Association
+T-32,Ghana,GHA,CAF,Confederation of African Football,África,Africa,Ghana Football Association
+T-33,Greece,GRC,UEFA,Union of European Football Associations,Europa,Europe,Hellenic Football Associaiton
+T-34,Haiti,HTI,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Caribbean,Haitian Football Federation
+T-35,Honduras,HND,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Central America,National Autonomous Federation of Football of Honduras
+T-36,Hungary,HUN,UEFA,Union of European Football Associations,Europa,Europe,Hungary Football Association
+T-37,Iceland,ISL,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Iceland
+T-38,Iran,IRN,AFC,Asian Football Confederation,Asia,Middle East,Football Federation Islamic Republic of Iran
+T-39,Iraq,IRQ,AFC,Asian Football Confederation,Asia,Middle East,Iraq Football Association
+T-40,Israel,ISR,UEFA,Union of European Football Associations,Europa,Middle East,Israel Football Association
+T-41,Italy,ITA,UEFA,Union of European Football Associations,Europa,Europe,Italian Football Association
+T-42,Ivory Coast,CIV,CAF,Confederation of African Football,África,Africa,Ivorian Football Federation
+T-43,Jamaica,JAM,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Caribbean,Jamaica Football Federation
+T-44,Japan,JPN,AFC,Asian Football Confederation,Asia,East Asia,Japan Football Association
+T-45,Kuwait,KWT,AFC,Asian Football Confederation,Asia,Middle East,Kuwait Football Association
+T-46,Mexico,MEX,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,North America,Mexican Football Federation
+T-47,Morocco,MAR,CAF,Confederation of African Football,África,Africa,Royal Moroccan Football Federation
+T-48,Netherlands,NLD,UEFA,Union of European Football Associations,Europa,Europe,Royal Dutch Football Association
+T-49,New Zealand,NZL,OFC,Oceania Football Confederation,Oceanía,Oceania,New Zealand Football
+T-50,Nigeria,NGA,CAF,Confederation of African Football,África,Africa,Nigeria Football Federation
+T-51,North Korea,PRK,AFC,Asian Football Confederation,Asia,East Asia,Democratic People's Republic of Korea Football Association
+T-52,Northern Ireland,NIR,UEFA,Union of European Football Associations,Europa,Europe,Irish Football Association
+T-53,Norway,NOR,UEFA,Union of European Football Associations,Europa,Europe,Norwegian Football Federation
+T-54,Panama,PAN,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Central America,Panamanian Football Federation
+T-55,Paraguay,PRY,CONMEBOL,South American Football Confederation,Sudamérica,South America,Paraguayan Football Association
+T-56,Peru,PER,CONMEBOL,South American Football Confederation,Sudamérica,South America,Peruvian Football Association
+T-57,Poland,POL,UEFA,Union of European Football Associations,Europa,Europe,Polish Football Association
+T-58,Portugal,PRT,UEFA,Union of European Football Associations,Europa,Europe,Portuguese Football Federation
+T-59,Qatar,QAT,AFC,Asian Football Confederation,Asia,Middle East,Qatar Football Association
+T-60,Republic of Ireland,IRL,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Ireland
+T-61,Romania,ROU,UEFA,Union of European Football Associations,Europa,Europe,Romanian Football Federation
+T-62,Russia,RUS,UEFA,Union of European Football Associations,Europa,"Europe, Asia",Russian Football Union
+T-63,Saudi Arabia,SAU,AFC,Asian Football Confederation,Asia,Middle East,Saudi Arabian Football Association
+T-64,Scotland,SCO,UEFA,Union of European Football Associations,Europa,Europe,Scottish Football Association
+T-65,Senegal,SEN,CAF,Confederation of African Football,África,Africa,Senegalese Football Federation
+T-66,Serbia,SRB,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Serbia
+T-67,Serbia and Montenegro,SCG,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Serbia and Montenegro
+T-68,Slovakia,SVK,UEFA,Union of European Football Associations,Europa,Europe,Slovak Football Association
+T-69,Slovenia,SVN,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Slovenia
+T-70,South Africa,ZAF,CAF,Confederation of African Football,África,Africa,South African Football Associaiton
+T-71,South Korea,KOR,AFC,Asian Football Confederation,Asia,East Asia,Korea Football Association
+T-72,Soviet Union,SUN,UEFA,Union of European Football Associations,Europa,"Europe, Asia",Football Federation of the Soviet Union
+T-73,Spain,ESP,UEFA,Union of European Football Associations,Europa,Europe,Royal Spanish Football Federation
+T-74,Sweden,SWE,UEFA,Union of European Football Associations,Europa,Europe,Swedish Football Association
+T-75,Switzerland,CHE,UEFA,Union of European Football Associations,Europa,Europe,Swiss Football Association
+T-76,Thailand,THA,AFC,Asian Football Confederation,Asia,South East Asia,Football Association of Thailand
+T-77,Togo,TGO,CAF,Confederation of African Football,África,Africa,Togolese Football Federation
+T-78,Trinidad and Tobago,TTO,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,Caribbean,Trinidad and Tobago Football Assocaition
+T-79,Tunisia,TUN,CAF,Confederation of African Football,África,Africa,Tunisian Football Federation
+T-80,Turkey,TUR,UEFA,Union of European Football Associations,Europa,"Europe, Asia",Turkish Football Association
+T-81,Ukraine,UKR,UEFA,Union of European Football Associations,Europa,Europe,Ukrainian Association of Football
+T-82,United Arab Emirates,ARE,AFC,Asian Football Confederation,Asia,Middle East,United Arab Emirates Football Association
+T-83,United States,USA,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",Norteamérica/Centroamérica/Caribe,North America,United States Soccer Federation
+T-84,Uruguay,URY,CONMEBOL,South American Football Confederation,Sudamérica,South America,Uruguayan Football Association
+T-85,Wales,WAL,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Wales
+T-86,West Germany,DEU,UEFA,Union of European Football Associations,Europa,Europe,Germany Football Association
+T-87,Yugoslavia,YUG,UEFA,Union of European Football Associations,Europa,Europe,Football Association of Yugoslavia
+T-88,Zaire,COD,CAF,Confederation of African Football,África,Africa,Congolese Association Football Federation

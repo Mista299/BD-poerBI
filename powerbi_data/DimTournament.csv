@@ -1,0 +1,23 @@
+TournamentID,TournamentName,Year,StartDate,EndDate,HostCountry,NumTeams,Champion,RunnerUp,ThirdPlace
+WC-1930,1930 FIFA Men's World Cup,1930,1930-07-13,1930-07-30,Uruguay,13,Uruguay,Argentina,United States
+WC-1934,1934 FIFA Men's World Cup,1934,1934-05-27,1934-06-10,Italy,16,Italy,Czechoslovakia,Germany
+WC-1938,1938 FIFA Men's World Cup,1938,1938-06-04,1938-06-19,France,15,Italy,Hungary,Brazil
+WC-1950,1950 FIFA Men's World Cup,1950,1950-06-24,1950-07-16,Brazil,13,Uruguay,Brazil,Sweden
+WC-1954,1954 FIFA Men's World Cup,1954,1954-06-16,1954-07-04,Switzerland,16,West Germany,Hungary,Austria
+WC-1958,1958 FIFA Men's World Cup,1958,1958-06-08,1958-06-29,Sweden,16,Brazil,Sweden,France
+WC-1962,1962 FIFA Men's World Cup,1962,1962-05-30,1962-07-17,Chile,16,Brazil,Czechoslovakia,Chile
+WC-1966,1966 FIFA Men's World Cup,1966,1966-07-11,1966-07-30,England,16,England,West Germany,Portugal
+WC-1970,1970 FIFA Men's World Cup,1970,1970-05-31,1970-06-21,Mexico,16,Brazil,Italy,West Germany
+WC-1974,1974 FIFA Men's World Cup,1974,1974-06-13,1974-07-07,West Germany,16,West Germany,Netherlands,Poland
+WC-1978,1978 FIFA Men's World Cup,1978,1978-06-01,1978-06-25,Argentina,16,Argentina,Netherlands,Brazil
+WC-1982,1982 FIFA Men's World Cup,1982,1982-06-13,1982-07-11,Spain,24,Italy,West Germany,Poland
+WC-1986,1986 FIFA Men's World Cup,1986,1986-05-31,1986-06-29,Mexico,24,Argentina,West Germany,France
+WC-1990,1990 FIFA Men's World Cup,1990,1990-06-08,1990-07-08,Italy,24,West Germany,Argentina,Italy
+WC-1994,1994 FIFA Men's World Cup,1994,1994-06-17,1994-07-17,United States,24,Brazil,Italy,Sweden
+WC-1998,1998 FIFA Men's World Cup,1998,1998-06-10,1998-07-12,France,32,France,Brazil,Croatia
+WC-2002,2002 FIFA Men's World Cup,2002,2002-05-31,2002-06-30,"Korea, Japan",32,Brazil,Germany,Turkey
+WC-2006,2006 FIFA Men's World Cup,2006,2006-06-09,2006-07-09,Germany,32,Italy,France,Germany
+WC-2010,2010 FIFA Men's World Cup,2010,2010-06-11,2010-07-11,South Africa,32,Spain,Netherlands,Germany
+WC-2014,2014 FIFA Men's World Cup,2014,2014-06-12,2014-07-13,Brazil,32,Germany,Argentina,Netherlands
+WC-2018,2018 FIFA Men's World Cup,2018,2018-06-14,2018-07-15,Russia,32,France,Croatia,Belgium
+WC-2022,2022 FIFA Men's World Cup,2022,2022-11-20,2022-12-18,Qatar,32,Argentina,France,Croatia

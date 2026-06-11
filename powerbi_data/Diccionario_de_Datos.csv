@@ -1,0 +1,99 @@
+Tabla,Campo,Tipo,Descripcion
+DimTournament,TournamentID,TEXT,Identificador único del torneo (ej: WC-1930)
+DimTournament,TournamentName,TEXT,Nombre oficial del torneo
+DimTournament,Year,INTEGER,Año de celebración
+DimTournament,StartDate,DATE,Fecha de inicio
+DimTournament,EndDate,DATE,Fecha de finalización
+DimTournament,HostCountry,TEXT,País(es) sede
+DimTournament,NumTeams,INTEGER,Cantidad de selecciones participantes
+DimTournament,Champion,TEXT,Selección campeona
+DimTournament,RunnerUp,TEXT,Selección subcampeona
+DimTournament,ThirdPlace,TEXT,Tercer lugar
+DimTeam,TeamID,TEXT,Identificador único de la selección
+DimTeam,TeamName,TEXT,Nombre completo
+DimTeam,TeamCode,TEXT,Código de 3 letras (BRA, ARG, etc.)
+DimTeam,ConfederationCode,TEXT,Confederación (UEFA, CONMEBOL, etc.)
+DimTeam,ConfederationName,TEXT,Nombre de la confederación
+DimTeam,Continent,TEXT,Continente en español
+DimTeam,Region,TEXT,Región geográfica
+DimTeam,FederationName,TEXT,Federación nacional
+DimPlayer,PlayerID,TEXT,Identificador único del jugador
+DimPlayer,FullName,TEXT,Nombre completo
+DimPlayer,FamilyName,TEXT,Apellido
+DimPlayer,GivenName,TEXT,Nombre de pila
+DimPlayer,BirthDate,DATE,Fecha de nacimiento
+DimPlayer,Position,TEXT,Posición (Portero/Defensa/Mediocampista/Delantero)
+DimPlayer,MainTeam,TEXT,Selección principal
+DimPlayer,TournamentsPlayed,INTEGER,Mundiales en los que participó
+DimDate,FullDate,DATE,Fecha completa
+DimDate,DateKey,INTEGER,Clave numérica YYYYMMDD para relaciones
+DimDate,Year,INTEGER,Año
+DimDate,Month,INTEGER,Mes numérico
+DimDate,MonthName,TEXT,Nombre del mes
+DimDate,Day,INTEGER,Día del mes
+DimDate,DayOfWeek,TEXT,Día de la semana
+DimDate,Quarter,TEXT,Trimestre Q1-Q4
+DimDate,Decade,TEXT,Década (1970s, 1980s, etc.)
+DimStage,StageID,TEXT,Identificador de fase
+DimStage,StageName,TEXT,Nombre de la fase
+DimStage,StageOrder,INTEGER,Orden lógico (1=grupos, 7=final)
+DimStage,IsKnockout,TEXT,¿Es eliminatoria? (Sí/No)
+FactMatches,MatchID,TEXT,Identificador único del partido
+FactMatches,TournamentID,TEXT,FK → DimTournament
+FactMatches,StageName,TEXT,FK → DimStage (por nombre)
+FactMatches,GroupName,TEXT,Nombre del grupo si aplica
+FactMatches,MatchDate,DATE,Fecha del partido
+FactMatches,DateKey,INTEGER,FK → DimDate
+FactMatches,HomeTeamID,TEXT,FK → DimTeam (local)
+FactMatches,HomeTeamName,TEXT,Nombre equipo local
+FactMatches,AwayTeamID,TEXT,FK → DimTeam (visitante)
+FactMatches,AwayTeamName,TEXT,Nombre equipo visitante
+FactMatches,HomeGoals,INTEGER,Goles del equipo local
+FactMatches,AwayGoals,INTEGER,Goles del equipo visitante
+FactMatches,TotalGoals,INTEGER,Total goles del partido
+FactMatches,MatchResult,TEXT,Local / Visitante / Empate
+FactMatches,WinnerTeamID,TEXT,FK → DimTeam (ganador)
+FactMatches,WentToExtraTime,BOOLEAN,¿Hubo prórroga?
+FactMatches,WentToPenalties,BOOLEAN,¿Hubo penales?
+FactMatches,IsKnockout,BOOLEAN,¿Es fase eliminatoria?
+FactMatches,IsGroupStage,BOOLEAN,¿Es fase de grupos?
+FactMatches,StadiumName,TEXT,Estadio
+FactMatches,City,TEXT,Ciudad
+FactMatches,MatchCountry,TEXT,País donde se jugó
+FactGoals,GoalID,TEXT,Identificador único del gol
+FactGoals,MatchID,TEXT,FK → FactMatches
+FactGoals,TournamentID,TEXT,FK → DimTournament
+FactGoals,TeamID,TEXT,FK → DimTeam
+FactGoals,TeamName,TEXT,Equipo que anotó
+FactGoals,PlayerID,TEXT,FK → DimPlayer
+FactGoals,PlayerName,TEXT,Nombre del goleador
+FactGoals,ShirtNumber,INTEGER,Número de camiseta
+FactGoals,Minute,TEXT,Minuto del gol
+FactGoals,Period,TEXT,Período (1H, 2H, ET1, ET2)
+FactGoals,GoalType,TEXT,Gol normal / Penal / Autogol
+FactGoals,IsOwnGoal,BOOLEAN,¿Es autogol?
+FactGoals,IsPenalty,BOOLEAN,¿Es penal?
+FactGoals,StageName,TEXT,Fase del torneo
+FactGoals,MatchDate,DATE,Fecha del partido
+FactTeamTournament,TournamentID,TEXT,FK → DimTournament
+FactTeamTournament,TeamID,TEXT,FK → DimTeam
+FactTeamTournament,TeamName,TEXT,Selección
+FactTeamTournament,MatchesPlayed,INTEGER,Partidos jugados
+FactTeamTournament,Wins,INTEGER,Victorias
+FactTeamTournament,Draws,INTEGER,Empates
+FactTeamTournament,Losses,INTEGER,Derrotas
+FactTeamTournament,GoalsFor,INTEGER,Goles a favor
+FactTeamTournament,GoalsAgainst,INTEGER,Goles en contra
+FactTeamTournament,GoalDifference,INTEGER,Diferencia de gol
+FactTeamTournament,Points,INTEGER,Puntos (W×3 + D×1)
+FactTeamTournament,WinPct,FLOAT,% de victorias
+FactTeamTournament,ExtraTimeGames,INTEGER,Partidos que fueron a prórroga
+FactTeamTournament,PenaltyGames,INTEGER,Partidos que fueron a penales
+FactTeamTournament,FinalPosition,INTEGER,Posición final en el torneo
+TopScorers,PlayerID,TEXT,FK → DimPlayer
+TopScorers,PlayerName,TEXT,Nombre del goleador
+TopScorers,TeamName,TEXT,Selección
+TopScorers,TotalGoals,INTEGER,Goles totales en mundiales (sin autogoles)
+TopScorers,TournamentsScored,INTEGER,Mundiales en los que anotó
+TopScorers,MatchesScored,INTEGER,Partidos en los que anotó
+TopScorers,RankGlobal,INTEGER,Ranking histórico
